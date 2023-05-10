@@ -10,7 +10,7 @@ run-name: ${{ github.actor }} requested a workflow
 on:
   push:
     branches:
-      - main
+      - master
 
 # Environment variables (Optional)
 # Small projects might have signingConfigs locally. This could lead to failures on GitHub Actions.
